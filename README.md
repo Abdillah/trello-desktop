@@ -5,6 +5,7 @@
 [![Trello Desktop](https://github.com/danielchatfield/trello-desktop/blob/master/media/screenshot.png?raw=true)](https://github.com/danielchatfield/trello-desktop/releases/latest)
 
 *OS X 10.8+, Windows 7+ & Linux are supported.*
+Tested on Ubuntu 20.10.
 
 ## Install
 
@@ -14,7 +15,7 @@
 
 ### Linux
 
-[**Download**](https://github.com/danielchatfield/trello-desktop/releases/latest) and unzip to some location.
+[**Download**](https://github.com/ksylva/trello-desktop/releases/latest) and unzip to some location.
 
 To add a shortcut to the app, create a file in `~/.local/share/applications` called `trello.desktop` with the following contents:
 
