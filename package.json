@@ -15,6 +15,7 @@
     "node": ">=11"
   },
   "electronVersion": "0.34.3",
+  "main": "./index.js",
   "scripts": {
     "test": "xo --space",
     "start": "electron .",
@@ -36,14 +37,14 @@
     "trello"
   ],
   "dependencies": {
-    "electron-config": "^0.1.1",
-    "electron-context-menu": "^0.1.0",
+    "electron-store": "^7.0.2",
+    "electron-context-menu": "^2.5.0",
     "electron-debug": "^1.0.0",
     "electron-dl": "^1.0.0"
   },
   "devDependencies": {
-    "electron": "^5.0.0",
-    "electron-packager": "13.1.1",
+    "electron": "11.2.3",
+    "electron-packager": "^15.0.0",
     "xo": "^0.37.1"
   },
   "xo": {

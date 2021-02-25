@@ -1,5 +1,5 @@
 'use strict';
-const Config = require('electron-config');
+const Config = require('electron-store');
 
 module.exports = new Config({
   defaults: {
