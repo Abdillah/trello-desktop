@@ -38,7 +38,7 @@ function createMainWindow() {
     win.setSheetOffset(40);
   }
 
-  win.loadURL('https://trello.com/');
+  win.loadURL('https://trello.com/', { userAgent: 'Chrome' });
 
   win.on('close', e => {
     if (isQuitting) {
