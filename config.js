@@ -3,7 +3,7 @@ const Config = require('electron-store');
 
 module.exports = new Config({
   defaults: {
-    zoomFactor: 1,
+    zoomFactor: 0.8,
     lastWindowState: {
       width: 800,
       height: 600

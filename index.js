@@ -28,6 +28,7 @@ function createMainWindow() {
     titleBarStyle: 'hidden-inset',
     autoHideMenuBar: true,
     webPreferences: {
+      zoomFactor: config.get('zoomFactor'),
       nodeIntegration: false,
       preload: path.join(__dirname, 'browser.js'),
       plugins: true
